@@ -13,7 +13,7 @@ int	main(void)
 	int	i;
 	
 	i = 0;
-	str = "ma grosse bit en plâtre";
+	scanf("%s", str);
 	while(str[i] != '\0')
 	{
 		ft_putchar(str[i]);
